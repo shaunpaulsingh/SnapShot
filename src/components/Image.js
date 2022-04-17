@@ -1,8 +1,8 @@
 import React from "react";
 
 const Image = ({ url, title }) => (
-  <li>
-    <img src={url} alt={title} />
+  <li className="rounded">
+    <img className="rounded" src={url} alt={title} />
   </li>
 );
 

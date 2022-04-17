@@ -6,6 +6,7 @@ const Header = ({ history, handleSubmit }) => {
   return (
     <div>
       <h1>SnapShot</h1>
+      <h4>An Image Gallery written in React</h4>
       <Form history={history} handleSubmit={handleSubmit} />
       <Navigation />
     </div>
